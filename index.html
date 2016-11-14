@@ -46,10 +46,10 @@ header {
   <h1>Health Tools</h1>
 
   <ul>
-  <li><a href="#bpquiz">Blood Pressure Quiz</a></li>
-  <li><a href="#bmi">BMI Healthy Weight Calculator</a></li>
-  <li><a href="#mood">Mood Self-Assessment</a></li>
-  <li><a href="#info">More Info</a></li>
+  <li><a href="#quizbp">Blood Pressure Quiz</a></li>
+  <li><a href="#bodymassindex">BMI Healthy Weight Calculator</a></li>
+  <li><a href="#feelings">Mood Self-Assessment</a></li>
+  <li><a href="#information">More Info</a></li>
   </ul>
 
 </header>
@@ -59,7 +59,7 @@ header {
 
 
 
-
+<div id="quizbp">
 <div class="bpquiz">
 
   <h2>Blood Pressure Quiz</h2>
@@ -86,13 +86,13 @@ Low blood pressure is less common. Some medications can cause low blood pressure
 
 
 </div>
+</div>
 
 
 
 
 
-
-
+<div id="bodymassindex">
 <div class="bmi"><p>
     <h2>Healthy Weight</h2>
 <br>
@@ -104,10 +104,12 @@ Low blood pressure is less common. Some medications can cause low blood pressure
     <iframe style="width:100%;height:500px;" title="BMI Healthy weight calculator" src="https://media.nhschoices.nhs.uk/tools/documents/healthy_weight_v3/healthy_weight.html" frameborder="no" scrolling="no"></iframe>
 <br><br><br>
 </div>
+</div>
 
 
 
 
+<div id="feelings">
 <div class="mood">
 
   <h2>Mood Self-Assessment</h2>
@@ -129,6 +131,7 @@ $(window).on('message', function(e) {
 
   <iframe style="width:100%;height:500px;" title="self assessments" src="https://media.nhschoices.nhs.uk/tools/documents/self_assessments_js/assessment.html?ASid=44&syndicate=true" frameborder="no" scrolling="no"></iframe>
 </div>
+</div>
 
 
 
@@ -138,8 +141,7 @@ $(window).on('message', function(e) {
 
 
 
-
-
+<div id="information">
 <div class="info">
   <h2>More Info</h2>
     For further information, type in your email<br><br>
@@ -153,7 +155,7 @@ Share?<br><br>
   <span class='st_email_large' displayText='Email'></span>
 
 </div>
-
+</div>
 
 
 

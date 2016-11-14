@@ -116,7 +116,7 @@ We can all feel low, anxious or panicky from time to time. Check your mood using
 
 
 <script language="javascript">
-$(window).on('message', function(e) {
+window.on('message', function(e) {
 	var tmp = (eval('(' +e.originalEvent.data+')'));
 	window.hasOwnProperty = window.hasOwnProperty || Object.prototype.hasOwnProperty;
 	if(tmp.hasOwnProperty('nhs_redirect')){
